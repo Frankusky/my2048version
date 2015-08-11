@@ -1,5 +1,5 @@
 # 2048: Frankusky version
-This is my version made by html, js and cs. Is not finished yet. Feel free to report any bug.
+This is my version made by html, js and cs. Is not finished yet. All the logistic was made by me. Feel free to report any bug.
 
 #Extra info
 -At the moment, you can move only using arrow keys.
