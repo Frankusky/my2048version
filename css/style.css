@@ -3,11 +3,17 @@ html,body{
 	background-color:#111;
 	color: black;
 	height:100%;
+	font-family: 'Orbitron', sans-serif;
 }
 .scoreBoard{
 	font-size:48px;
 	color:white;
 	text-align:center;
+	padding: 1%;
+}
+.score{
+	font-weight: 700;
+	font-size: 56px;
 }
 .board{
 	max-width:480px;
@@ -20,6 +26,7 @@ html,body{
 	margin: 0 auto;
 	left:0;
 	right:0;
+	font-weight: 800;
 }
 .cell{
 	height:23%;

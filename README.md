@@ -3,9 +3,12 @@ This is my version made by html, js and cs. Is not finished yet. All the logisti
 
 #Extra info
 -At the moment, you can move only using arrow keys.
+
 -It stores highscore using cookies.
 
 #Future implements
+-Better UI experience
+
 -Move cells using swipe
 
 -Make responsive
