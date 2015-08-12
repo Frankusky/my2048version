@@ -22,6 +22,7 @@
 			$(".cell").each(function () {
 				var boxValue = board[this.id[0]][this.id[1]] == 0 ? "" : board[this.id[0]][this.id[1]];
 				$("#" + this.id).empty().append(boxValue);
+				changeTheme($("#" + this.id), boxValue);
 			});
 			actualScore();
 		}
@@ -273,12 +274,50 @@
 		/*Starting game*/
 		newGame();
 
-		/*Auto change color
+		/*Auto change color*/
 		
-		function changeTheme(){
-			var themes = [[]]
-			$(".cell").css("color","red")
+		function changeTheme(selector, points){
+			switch(points){
+				case "":
+					selector.css("background-color","white");
+					break;
+				case 2:
+					selector.css("background-color","#fcf0e5");
+					break;
+				case 4:
+					selector.css("background-color","#eed5b7");
+					break;
+				case 8:
+					selector.css("background-color","#ffc89a");
+					break;
+				case 16:
+					selector.css("background-color","#6aec9a");
+					break;
+				case 32:
+					selector.css("background-color","#008b8b");
+					break;
+				case 64:
+					selector.css("background-color","#fcac3a");
+					break;
+				case 128:
+					selector.css("background-color","#f6ba00");
+					break;
+				case 256:
+					selector.css("background-color","#4ec5ff");
+					break;
+				case 512:
+					selector.css("background-color","#397fdb");
+					break;
+				case 1024:
+					selector.css("background-color","#e30472");
+					break;
+				case 2048:
+					selector.css("background-color","#990000");
+					break;
+				case 4096:
+					selector.css("background-color","#f9105e");
+					break;
+			};
 		}
-		setTimeout(function(){changeTheme()},1500)*/
 	});
 })();

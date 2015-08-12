@@ -13,8 +13,6 @@ This is my version made by html, js and cs. Is not finished yet. All the logisti
 
 -Make responsive
 
--Dinamic theme that changes according the score
-
 -Store highscore using parse api
 
 -Add animations when the cells value changes
