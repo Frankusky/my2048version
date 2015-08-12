@@ -247,7 +247,6 @@
 										};
 									} else if (parseInt(oldHighscore) < thisRoundScore) { // beated old highscore
 										var userName = prompt("Congratulations! You beated " + oldUserName + "(" + oldHighscore + "pts) record! \nPlease type your name to save your new highscore:");
-										alert("Thanks " + userName + " for playing! Wanna play again?");
 										Cookies.set('hg', thisRoundScore);
 										Cookies.set('username', userName);
 										if (confirm("Thanks " + userName + " for playing! Wanna play again?")){
