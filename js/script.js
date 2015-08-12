@@ -281,40 +281,40 @@
 					selector.css("background-color","white");
 					break;
 				case 2:
-					selector.css("background-color","#fcf0e5");
+					selector.css("background-color","#FCF0E5");
 					break;
 				case 4:
-					selector.css("background-color","#eed5b7");
+					selector.css("background-color","#EED5B7");
 					break;
 				case 8:
-					selector.css("background-color","#ffc89a");
+					selector.css("background-color","#FFC89A");
 					break;
 				case 16:
-					selector.css("background-color","#6aec9a");
+					selector.css("background-color","#FFD073");
 					break;
 				case 32:
-					selector.css("background-color","#008b8b");
+					selector.css("background-color","#F6BA00");
 					break;
 				case 64:
-					selector.css("background-color","#fcac3a");
+					selector.css("background-color","#FCAC3A");
 					break;
 				case 128:
-					selector.css("background-color","#f6ba00");
+					selector.css("background-color","#FFA24B");
 					break;
 				case 256:
-					selector.css("background-color","#4ec5ff");
+					selector.css("background-color","#FF6400");
 					break;
 				case 512:
-					selector.css("background-color","#397fdb");
+					selector.css("background-color","#FF3F2C");
 					break;
 				case 1024:
-					selector.css("background-color","#e30472");
+					selector.css("background-color","#F9105E");
 					break;
 				case 2048:
-					selector.css("background-color","#990000");
+					selector.css("background-color","#E30412");
 					break;
 				case 4096:
-					selector.css("background-color","#f9105e");
+					selector.css("background-color","#990000");
 					break;
 			};
 		}
